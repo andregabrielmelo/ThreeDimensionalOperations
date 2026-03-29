@@ -1,0 +1,9 @@
+﻿  ComputacaoGrafica.cpp
+C:\Users\andre\Projects\Visual Studio 2026\ComputacaoGraficaPoligono\ComputacaoGrafica\ComputacaoGrafica\ComputacaoGrafica.cpp(181,20): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\andre\Projects\Visual Studio 2026\ComputacaoGraficaPoligono\ComputacaoGrafica\ComputacaoGrafica\ComputacaoGrafica.cpp(181,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\andre\Projects\Visual Studio 2026\ComputacaoGraficaPoligono\ComputacaoGrafica\ComputacaoGrafica\ComputacaoGrafica.cpp(181,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\andre\Projects\Visual Studio 2026\ComputacaoGraficaPoligono\ComputacaoGrafica\ComputacaoGrafica\ComputacaoGrafica.cpp(187,20): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\andre\Projects\Visual Studio 2026\ComputacaoGraficaPoligono\ComputacaoGrafica\ComputacaoGrafica\ComputacaoGrafica.cpp(187,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\andre\Projects\Visual Studio 2026\ComputacaoGraficaPoligono\ComputacaoGrafica\ComputacaoGrafica\ComputacaoGrafica.cpp(187,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  ComputacaoGrafica.vcxproj -> C:\Users\andre\Projects\Visual Studio 2026\ComputacaoGraficaPoligono\ComputacaoGrafica\x64\Debug\ComputacaoGrafica.exe
+          1 arquivo(s) copiado(s).
