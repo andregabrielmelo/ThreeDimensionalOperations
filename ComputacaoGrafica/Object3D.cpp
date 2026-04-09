@@ -29,11 +29,11 @@ void Object3D::draw() const {
 
         double x = v1.x, y = v1.y, z = v1.z;
         transform.apply(x, y, z);
-        glVertex3f(x, y, z);
+        glVertex3f((float)x, (float)y, (float)z);
 
         x = v2.x; y = v2.y; z = v2.z;
         transform.apply(x, y, z);
-        glVertex3f(x, y, z);
+        glVertex3f((float)x, (float)y, (float)z);
     }
 
     glEnd();
