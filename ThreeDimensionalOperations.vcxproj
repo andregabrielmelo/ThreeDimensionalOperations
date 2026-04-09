@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{1977f985-d8c9-40ff-aaef-43032168fc17}</ProjectGuid>
-    <RootNamespace>ComputacaoGrafica</RootNamespace>
+    <RootNamespace>ThreeDimensionalOperations</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -82,6 +82,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
+    <VcpkgXUseBuiltInApplocalDeps>true</VcpkgXUseBuiltInApplocalDeps>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -121,11 +125,14 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ProjectDir)freeglut\lib\x64</AdditionalLibraryDirectories>
-      <AdditionalDependencies>freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)freeglut\bin\x64\freeglut.dll" "$(OutDir)"</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -145,19 +152,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Mesh.cpp" />
-    <ClCompile Include="Object3D.cpp" />
-    <ClCompile Include="Transform.cpp" />
-    <ClCompile Include="Vector3.cpp" />
+    <ClCompile Include="src/Application.cpp" />
+    <ClCompile Include="src/main.cpp" />
+    <ClCompile Include="src/Mesh.cpp" />
+    <ClCompile Include="src/Object3D.cpp" />
+    <ClCompile Include="src/Transform.cpp" />
+    <ClCompile Include="src/Vector3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="Mesh.h" />
-    <ClInclude Include="Object3D.h" />
-    <ClInclude Include="Transform.h" />
-    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="src/Application.h" />
+    <ClInclude Include="src/Mesh.h" />
+    <ClInclude Include="src/Object3D.h" />
+    <ClInclude Include="src/Transform.h" />
+    <ClInclude Include="src/Vector3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

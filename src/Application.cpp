@@ -1,8 +1,7 @@
 #include "Application.h"
 #include "Mesh.h"
-#include <GL/freeglut.h>
 #include <cstdlib>
-
+#include <GL/freeglut.h>
 
 Application::Application()
     : cube(Mesh::createCube(50)) // initialize cube

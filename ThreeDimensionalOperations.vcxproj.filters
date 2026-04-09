@@ -27,39 +27,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src/main.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="Application.cpp">
+    <ClCompile Include="src/Application.cpp">
       <Filter>Arquivos de Origem\Application</Filter>
     </ClCompile>
-    <ClCompile Include="Object3D.cpp">
+    <ClCompile Include="src/Mesh.cpp">
       <Filter>Arquivos de Origem\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="Vector3.cpp">
+    <ClCompile Include="src/Object3D.cpp">
       <Filter>Arquivos de Origem\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="Transform.cpp">
+    <ClCompile Include="src/Transform.cpp">
       <Filter>Arquivos de Origem\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="Mesh.cpp">
+    <ClCompile Include="src/Vector3.cpp">
       <Filter>Arquivos de Origem\Entities</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Application.h">
+    <ClInclude Include="src/Application.h">
       <Filter>Arquivos de Cabeçalho\Application</Filter>
     </ClInclude>
-    <ClInclude Include="Object3D.h">
+    <ClInclude Include="src/Mesh.h">
       <Filter>Arquivos de Cabeçalho\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="Vector3.h">
+    <ClInclude Include="src/Object3D.h">
       <Filter>Arquivos de Cabeçalho\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="Transform.h">
+    <ClInclude Include="src/Transform.h">
       <Filter>Arquivos de Cabeçalho\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="Mesh.h">
+    <ClInclude Include="src/Vector3.h">
       <Filter>Arquivos de Cabeçalho\Entities</Filter>
     </ClInclude>
   </ItemGroup>

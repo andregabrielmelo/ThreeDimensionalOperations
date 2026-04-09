@@ -42,3 +42,11 @@
 
 # ignore visual studio files
 *.vs
+
+# ignore vcpkg
+vcpkg_installed/
+*.tlog
+*.log
+*.FileListAbsolute.txt
+*.idb
+*.recipe
