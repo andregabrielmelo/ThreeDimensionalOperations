@@ -23,22 +23,23 @@ void Application::display() {
 
 void Application::keyboard(unsigned char key) {
     switch (key) {
-    case 27: exit(0);
+		// ESC key
+        case 27: exit(0);
 
-    case 'w': cube.move(0, 5, 0); break;
-    case 's': cube.move(0, -5, 0); break;
-    case 'a': cube.move(-5, 0, 0); break;
-    case 'd': cube.move(5, 0, 0); break;
+        case 'w': cube.move(0, 5, 0); break;
+        case 's': cube.move(0, -5, 0); break;
+        case 'a': cube.move(-5, 0, 0); break;
+        case 'd': cube.move(5, 0, 0); break;
 
-    case 'q': cube.move(0, 0, 5); break;
-    case 'e': cube.move(0, 0, -5); break;
+        case 'q': cube.move(0, 0, 5); break;
+        case 'e': cube.move(0, 0, -5); break;
 
-    case '+': cube.scale(1.1, 1.1, 1.1); break;
-    case '-': cube.scale(0.9, 0.9, 0.9); break;
+        case '+': cube.scale(1.1, 1.1, 1.1); break;
+        case '-': cube.scale(0.9, 0.9, 0.9); break;
 
-    case 'x': cube.rotate(0.1, 0, 0); break;
-    case 'y': cube.rotate(0, 0.1, 0); break;
-    case 'z': cube.rotate(0, 0, 0.1); break;
+        case 'x': cube.rotate(0.1, 0, 0); break;
+        case 'y': cube.rotate(0, 0.1, 0); break;
+        case 'z': cube.rotate(0, 0, 0.1); break;
     }
 }
 
@@ -46,10 +47,10 @@ void Application::keyboardSpecial(int key) {
     double step = 10;
 
     switch (key) {
-    case GLUT_KEY_UP:    cube.move(0, step, 0); break;
-    case GLUT_KEY_DOWN:  cube.move(0, -step, 0); break;
-    case GLUT_KEY_RIGHT: cube.move(step, 0, 0); break;
-    case GLUT_KEY_LEFT:  cube.move(-step, 0, 0); break;
+        case GLUT_KEY_UP:    cube.move(0, step, 0); break;
+        case GLUT_KEY_DOWN:  cube.move(0, -step, 0); break;
+        case GLUT_KEY_RIGHT: cube.move(step, 0, 0); break;
+        case GLUT_KEY_LEFT:  cube.move(-step, 0, 0); break;
     }
 }
 
